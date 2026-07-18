@@ -225,7 +225,7 @@ th {
 }
 body {
  -ms-touch-action:pan-y;
- background:#fff;
+ background:#000;
  overflow:hidden;
  background-image:none;
  margin:0;
