@@ -225,28 +225,20 @@ th {
 }
 body {
  -ms-touch-action:pan-y;
- background:#000;
+ background:#fff;
  overflow:hidden;
- background-image:none;
- margin:0;
- padding:0;
- width:100vw;
- height:100vh
+ background-image:none
 }
 #loaderWindow {
  background-image:url(../images/page/loader-bg.jpg);
- background-repeat:no-repeat;
- width:100vw;
- height:100vh
+ background-repeat:no-repeat
 }
 #gameContainer {
  overflow:hidden;
  margin:0!important;
  position:absolute;
  top:0;
- left:0;
- width:100vw;
- height:100vh
+ left:0
 }
 #popupWindow {
  z-index:100!important
@@ -275,29 +267,28 @@ body {
 }
 .ui-1024 #c {
  position:relative;
- width:1024px;
- height:576px;
+ width:1024;
+ height:576;
  background-color:#000
 }
 .ui-1024 #e {
- width:1024px;
- height:576px
+ width:1024;
+ height:576
 }
 .ui-1024 #gameContainer {
  position:relative;
- margin:0;
+ margin:40px auto 0;
  width:1024px;
- height:576px;
+ height:730px;
  padding:0
 }
 .ui-1024 #gameBorder {
- top:0;
- left:0;
+ top:-9px;
+ left:-12px;
  position:absolute;
  background-repeat:no-repeat;
  width:1047px;
- height:598px;
- display:none
+ height:598px
 }
 .ui-1024 #gameArea {
  margin:0;
@@ -329,8 +320,8 @@ body {
 .ui-1024 #shadowCanvas {
  position:absolute;
  top:0;
- width:100vw;
- height:100vh
+ width:1024px;
+ height:576px
 }
 .ui-1024 .panelShadow img {
  position:relative;
@@ -668,8 +659,8 @@ body {
 .ui-1024 #levelMenu {
  position:absolute;
  top:0;
- width:100vw;
- height:100vh;
+ width:1024px;
+ height:446px;
  background-color:rgba(0,0,0,.6);
  display:none;
  text-align:center;
@@ -986,8 +977,8 @@ body {
 }
 .ui-1024 #vid {
  display:none;
- width:100vw;
- height:100vh;
+ width:1024px;
+ height:576px;
  position:absolute;
  top:0;
  left:0;
@@ -995,8 +986,8 @@ body {
 }
 .ui-1024 #fadeToBlack {
  display:none;
- width:100vw;
- height:100vh;
+ width:1024px;
+ height:576px;
  position:absolute;
  top:0;
  left:0;
