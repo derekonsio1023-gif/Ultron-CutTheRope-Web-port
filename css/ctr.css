@@ -88,15 +88,15 @@ a:active,a:focus {
 }
 @font-face {
  font-family:gooddogplain;
- src:url(../fonts/gooddog-plain/GoodDog-webfont.eot);
- src:url(../fonts/gooddog-plain/GoodDog-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/gooddog-plain/GoodDog-webfont.woff) format("woff"),url(../fonts/gooddog-plain/GoodDog-webfont.ttf) format("truetype"),url(../fonts/gooddog-plain/GoodDog-webfont.svg#GoodDogRegular) format("svg");
+ src:url(../fonts/gooddog/gooddog-plain/GoodDog-webfont.eot);
+ src:url(../fonts/gooddog/gooddog-plain/GoodDog-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/gooddog/gooddog-plain/GoodDog-webfont.woff) format("woff"),url(../fonts/gooddog/gooddog-plain/GoodDog-webfont.ttf) format("truetype"),url(../fonts/gooddog/gooddog-plain/GoodDog-webfont.svg#GoodDogRegular) format("svg");
  font-weight:400;
  font-style:normal
 }
 @font-face {
  font-family:gooddognew;
- src:url(../fonts/gooddog-new/gooddog_new-webfont.eot);
- src:url(../fonts/gooddog-new/gooddog_new-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/gooddog-new/gooddog_new-webfont.woff) format("woff"),url(../fonts/gooddog-new/gooddog_new-webfont.ttf) format("truetype"),url(../fonts/gooddog-new/gooddog_new-webfont.svg#GoodDogNewRegular) format("svg");
+ src:url(../fonts/gooddog/gooddog_new/gooddog_new-webfont.eot);
+ src:url(../fonts/gooddog/gooddog_new/gooddog_new-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/gooddog/gooddog_new/gooddog_new-webfont.woff) format("woff"),url(../fonts/gooddog/gooddog_new/gooddog_new-webfont.ttf) format("truetype"),url(../fonts/gooddog/gooddog_new/gooddog_new-webfont.svg#GoodDogNewRegular) format("svg");
  font-weight:400;
  font-style:normal
 }
