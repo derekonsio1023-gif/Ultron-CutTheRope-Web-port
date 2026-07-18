@@ -275,28 +275,28 @@ body {
 }
 .ui-1024 #c {
  position:relative;
- width:1024;
- height:576;
+ width:100vw;
+ height:100vh;
  background-color:#000
 }
 .ui-1024 #e {
- width:1024;
- height:576
+ width:100vw;
+ height:100vh
 }
 .ui-1024 #gameContainer {
  position:relative;
- margin:40px auto 0;
- width:1024px;
- height:730px;
+ margin:0;
+ width:100vw;
+ height:100vh;
  padding:0
 }
 .ui-1024 #gameBorder {
- top:-9px;
- left:-12px;
+ top:0;
+ left:0;
  position:absolute;
  background-repeat:no-repeat;
- width:1047px;
- height:598px;
+ width:100vw;
+ height:100vh;
  display:none
 }
 .ui-1024 #gameArea {
@@ -304,12 +304,12 @@ body {
  position:absolute;
  top:0;
  left:0;
- width:1024px;
- height:576px
+ width:100vw;
+ height:100vh
 }
 .ui-1024 .panel {
- width:1024px;
- height:576px
+ width:100vw;
+ height:100vh
 }
 .ui-1024 #startBackground {
  display:none;
@@ -329,8 +329,8 @@ body {
 .ui-1024 #shadowCanvas {
  position:absolute;
  top:0;
- width:1024px;
- height:576px
+ width:100vw;
+ height:100vh
 }
 .ui-1024 .panelShadow img {
  position:relative;
@@ -668,8 +668,8 @@ body {
 .ui-1024 #levelMenu {
  position:absolute;
  top:0;
- width:1024px;
- height:446px;
+ width:100vw;
+ height:100vh;
  background-color:rgba(0,0,0,.6);
  display:none;
  text-align:center;
@@ -986,8 +986,8 @@ body {
 }
 .ui-1024 #vid {
  display:none;
- width:1024px;
- height:576px;
+ width:100vw;
+ height:100vh;
  position:absolute;
  top:0;
  left:0;
@@ -995,8 +995,8 @@ body {
 }
 .ui-1024 #fadeToBlack {
  display:none;
- width:1024px;
- height:576px;
+ width:100vw;
+ height:100vh;
  position:absolute;
  top:0;
  left:0;
