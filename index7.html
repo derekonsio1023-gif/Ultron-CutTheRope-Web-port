@@ -35,40 +35,6 @@
             };
             Image.prototype = originalImage.prototype;
         })();
-
-        // Scale game to fit screen
-        function scaleGame() {
-            const gameContainer = document.querySelector('#gameContainer');
-            const canvas = document.querySelector('#c');
-            if (!gameContainer || !canvas) return;
-
-            const targetWidth = 1024;
-            const targetHeight = 576;
-            const windowWidth = window.innerWidth;
-            const windowHeight = window.innerHeight;
-
-            const scaleX = windowWidth / targetWidth;
-            const scaleY = windowHeight / targetHeight;
-            const scale = Math.min(scaleX, scaleY);
-
-            canvas.style.transform = `scale(${scale})`;
-            canvas.style.transformOrigin = 'center center';
-            canvas.style.position = 'absolute';
-            canvas.style.left = '50%';
-            canvas.style.top = '50%';
-            canvas.style.marginLeft = `-${targetWidth / 2}px`;
-            canvas.style.marginTop = `-${targetHeight / 2}px`;
-            canvas.style.width = `${targetWidth}px`;
-            canvas.style.height = `${targetHeight}px`;
-        }
-
-        window.addEventListener('resize', scaleGame);
-        
-        // Try multiple times to ensure game is loaded
-        setTimeout(scaleGame, 100);
-        setTimeout(scaleGame, 500);
-        setTimeout(scaleGame, 1000);
-        setTimeout(scaleGame, 2000);
     </script>
     <link href="css/ctr.css?438" rel="stylesheet" type="text/css">
     <script src="scripts/sm2.js?438" type="text/javascript"></script>
