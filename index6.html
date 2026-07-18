@@ -63,7 +63,12 @@
         }
 
         window.addEventListener('resize', scaleGame);
-        window.addEventListener('load', scaleGame);
+        
+        // Try multiple times to ensure game is loaded
+        setTimeout(scaleGame, 100);
+        setTimeout(scaleGame, 500);
+        setTimeout(scaleGame, 1000);
+        setTimeout(scaleGame, 2000);
     </script>
     <link href="css/ctr.css?438" rel="stylesheet" type="text/css">
     <script src="scripts/sm2.js?438" type="text/javascript"></script>
