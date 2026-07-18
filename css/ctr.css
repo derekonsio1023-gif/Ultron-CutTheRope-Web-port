@@ -227,18 +227,26 @@ body {
  -ms-touch-action:pan-y;
  background:#fff;
  overflow:hidden;
- background-image:none
+ background-image:none;
+ margin:0;
+ padding:0;
+ width:100vw;
+ height:100vh
 }
 #loaderWindow {
  background-image:url(../images/page/loader-bg.jpg);
- background-repeat:no-repeat
+ background-repeat:no-repeat;
+ width:100vw;
+ height:100vh
 }
 #gameContainer {
  overflow:hidden;
  margin:0!important;
  position:absolute;
  top:0;
- left:0
+ left:0;
+ width:100vw;
+ height:100vh
 }
 #popupWindow {
  z-index:100!important
