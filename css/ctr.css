@@ -277,7 +277,8 @@ body {
  position:relative;
  width:100vw;
  height:100vh;
- background-color:#000
+ background-color:#000;
+ object-fit: contain
 }
 .ui-1024 #e {
  width:100vw;
